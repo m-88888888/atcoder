@@ -17,7 +17,9 @@ $ oj login https://atcoder.jp/
 ```sh
 $ acc new abc086
 $ cd abc086
-# write code
-$ ojt # execute test
-$ acc s
+
+# write code...
+
+# oj t -c "ruby main.rb" -d tests
+$ acc s main.rb
 ```
